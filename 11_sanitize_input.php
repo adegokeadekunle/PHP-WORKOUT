@@ -13,7 +13,7 @@ if(isset($_POST['submit'])){
  //This is another alternative how to apply to sanitization.
  //$name = filter_var($_POST['name'],FILTER_SANITIZE_FULL_SP ECIAL_CHARS);
 }
-?>
+?> 
 
 <!-- <a href="<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>?name=kunle&age=20">Click</a> -->
 
