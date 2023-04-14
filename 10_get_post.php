@@ -15,7 +15,7 @@ if(isset($_POST['submit'])){
 
 <a href="<?php echo $_SERVER['PHP_SELF'];?>?name=kunle&age=20">Click</a>
 
-//Forms 
+<!-- Forms  -->
 <form action="<?php echo $_SERVER['PHP_SELF'];?>" method="GET">
 <div>
     <label for="name">Name:</label>
